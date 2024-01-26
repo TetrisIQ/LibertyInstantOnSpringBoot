@@ -7,6 +7,7 @@ FROM icr.io/appcafe/open-liberty:beta as staging
 COPY --chown=1001:0 target/guide-spring-boot-0.1.0.jar \
                     /staging/fat-guide-spring-boot-0.1.0.jar
 # end::copyJar[]
+USER root
 
 # tag::springBootUtility[]
 RUN springBootUtility thin \

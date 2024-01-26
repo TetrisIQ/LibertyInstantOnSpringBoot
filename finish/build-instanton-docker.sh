@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 docker build \
-   -f Dockerfile.docker \
+   -f Dockerfile \
    -t springboot-og \
    .
 

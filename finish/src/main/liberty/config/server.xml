@@ -6,7 +6,7 @@
         <feature>servlet-6.0</feature>
     <!-- end::servlet[] -->
     <!-- tag::springboot[] -->
-        <feature>springBoot-3.0</feature>
+        <feature>springBoot-3.2.2</feature>
     <!-- end::springboot[] -->
     </featureManager>
 
